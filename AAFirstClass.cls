@@ -3,8 +3,10 @@ public class AAFirstClass {
     @AuraEnabled(cacheable=true)
     public static List<Account> firstMethod()
     {
+	return [SELECT Id,Name,Website FROM Account];
+	return [SELECT Id,Name,Website FROM Account];
         return [SELECT Id,Name,Website FROM Account];
-        
+        return [SELECT Id,Name,Website FROM Account];return [SELECT Id,Name,Website FROM Account];return [SELECT Id,Name,Website FROM Account];
     }
         
 }
