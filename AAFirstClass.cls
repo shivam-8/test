@@ -6,7 +6,7 @@ public class AAFirstClass {
 	return [SELECT Id,Name,Website FROM Account];
 	return [SELECT Id,Name,Website FROM Account];
         return [SELECT Id,Name,Website FROM Account];
-        
+        return [SELECT Id,Name,Website FROM Account];return [SELECT Id,Name,Website FROM Account];return [SELECT Id,Name,Website FROM Account];
     }
         
 }
