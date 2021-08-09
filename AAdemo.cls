@@ -5,6 +5,16 @@ public class AAdemo {
         decimal res = f+s;
         return res;
     }
+@AuraEnabled
+    public static decimal calculate(decimal f ,decimal s){
+        decimal res = f+s;
+        return res;
+    }
+@AuraEnabled
+    public static decimal calculate(decimal f ,decimal s){
+        decimal res = f+s;
+        return res;
+    }
 
     @AuraEnabled(cacheable=true)
     public static List<string> getObject(){
